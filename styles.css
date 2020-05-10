@@ -1,0 +1,126 @@
+.logos {
+    width: 200px;
+    height: 45px;
+}
+
+.sinlinea {
+    color: rgb(109, 194, 109);
+    text-decoration: none;
+}
+
+.colorbaner {
+    font-size: 40px;
+}
+
+.fondoimagen1 {
+    background-image: url(MULTIMEDIA/FONDO.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.top {
+    background-color: lightcyan;
+    padding: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(33, 37, 41);
+    font-weight: 700;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.otrotop {
+    margin-top: 50px;
+    margin-bottom: px;
+}
+
+.imgcenter {
+    text-align: center;
+}
+
+.justifica {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.cubo {
+    margin-top: 30px;
+}
+
+.nomelacreo {
+    background-color: rgba(33, 37, 41, 0.7);
+}
+
+.nomelacreo1 {
+    background-color: rgb(33, 37, 41);
+}
+
+.texto {
+    color: lightcyan;
+    text-align: center;
+}
+
+.top1 {
+    padding: 2%;
+}
+
+.top2 {
+    padding: 5%;
+}
+
+.tamaño {
+    height: 155px;
+}
+
+.tamaño1 {
+    height: 175px;
+}
+
+.noda {
+    width: 520px;
+    height: 300px;
+}
+
+.noda1 {
+    width: 100px;
+    height: 100px;
+}
+
+.fuente {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.fuente1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.imgicon {
+    width: 30px;
+    height: 30px;
+}
+
+.imgcc {
+    width: 13px;
+    height: 13px;
+}
+
+.imgcc {
+    width: 13px;
+    height: 13px;
+}
+
+.border {
+    border-radius: 2rem;
+}
+
+.colortextos {
+    background-color: rgba(224, 255, 255, 0.5);
+}
+
+.logofooter {
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+}
