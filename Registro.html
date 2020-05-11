@@ -4,101 +4,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
-    <link rel="stylesheet" href="zTILOS.css">
+    <title>Registro-Daarb</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <section> <img src="" alt="LOGO"> </section>
-        <section>
-            <nav>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="Index.html"> <img src="MULTIMEDIA/logo.PNG" alt="logo" class="logos">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <a href="Index.html">
-                    <li>Inicio</li>
-                </a>
-                <a href="Nosotros.html">
-                    <li>Nosotros</li>
-                </a>
-                <a href="Servicios.html">
-                    <li>Servicios</li>
-                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
 
-                <a href="Clientes.html">
-                    <li>Clientes</li>
-                </a>
-                <a href="Contacto.html">
-                    <li>Contacto</li>
-                </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Index.html">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contacto.html">Contactanos</a>
+                        </li>
+                    </ul>
 
 
+                    <button class="btn btn-outline-success my-2 my-sm-0 active" type="submit"> <a href="Registro.html"
+                            class="sinlinea ">Registro</a></button>
+                    </form>
+                </div>
             </nav>
-
-        </section>
-        <section>
-            <h1>FreeLancer</h1>
-        </section>
-
+        </div>
     </header>
-    <main>
-        <section><img src="" alt="imagen registro"></section>
-        <section>
-            <h1>Registrate</h1>
-        </section>
-        <section>
-            <p>Es rápido y fácil.</p>
-        </section>
-        <section>
-            <form action="">
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-                <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
-                <input type="number" name="celular" id="celular" placeholder="Celular">
-                <input type="email" name="correo" id="correo" placeholder="Correo Electronico">
-               
-                <p>Fecha de nacimiento</p>
-                <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
-                
-                <p>Sexo.</p>
-                <p>Mujer</p>
-                <input type="checkbox" name="mujer" id="mujer">
-                <p>Hombre</p>
-                <input type="checkbox" name="hombre" id="hombre">
-                <p>Personalizado</p>
-                <input type="checkbox" name="raro" id="raro" >
-               
-                
-                <p>Al hacer clic en Registrarte, aceptas las Condiciones, la Política de datos y la Política de cookies.
-                    Es posible que te enviemos notificaciones por SMS que podrás desactivar cuando quieras.</p>
-                <input type="submit" name="registrar" id="registrar" value="Registrar">
-            </form>
-        </section>
 
+    <main class="fondoRegistro">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-12 col-md-7 ">
+                    <div class="pa mid2 pa1">
+                        <p>Registrate</p>
+                        <p>Es muy facil.</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5 colorregistro border top2 mid">
+
+                    <p>Nombre Completo</p>
+                    <form action="">
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombres" class="campos">
+
+                        <p>Apellido Completo</p>
+                        <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos" class="campos">
+
+                        <p>Celular</p>
+                        <input type="number" name="celular" id="celular" placeholder="Número" class="campos">
+                        <br>
+                        <p>Correo Eletronico</p>
+                        <input type="email" name="correo" id="correo" placeholder="Email" class="campos">
+                        <br>
+                        <p>Fecha de Nacimiento</p>
+                        <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" class="campos">
+                        <br>
+                        <p>Genero (Sexo)</p>
+                        <div class="btn-group">
+
+                            <select class="custom-select mr-sm-2 " id="inlineFormCustomSelect">
+                            <option selected>---</option>
+                            <option value="1">Mujer</option>
+                            <option value="2">Hombre</option>
+                            <option value="3">Indefinido</option>
+                        </select>
+                        </div>
+                        <br><br>
+                        <input type="checkbox" name="terminos" id="terminos">
+                        <p>Acepto los términos y condiciones.</p>
+                        <br>
+                        <button type="button" class="btn btn-dark">Registrar</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
-        <section>
-            <h4>Contacto</h4>
-            <br>
-            <li>David Arboleda</li>
-            <li>Cel: 319-765-8790</li>
-            <li>Correo: arboledadavid200837@correo.itm.edu.co</li>
-            <li>Oficina: +57 4-2378923 +57 4-2323213</li>
-        </section>
 
-        <section> <img src="" alt="FIRMA"></section>
+    <footer class="nomelacreo1 ">
+        <div class="container">
+            <div class="row top1 justify-content-around">
+                <div class="col-12 col-md-3">
+                    <div class="texto">
+                        <p>David Daniel Arboleda Tolosa </p>
+                        <p>319-765-8790 </p>
+                        <p>arboledadavid200837@correo.itm.edu.co </p>
+                        <p>+57 4-2378923 +57 4-2323213 </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 center">
+                    <img src="MULTIMEDIA/logo.PNG" alt="FIRMA" class="logofooter">
+                </div>
+                <div class="col-12 col-md-3 imgcenter">
+                    <a href="https://www.facebook.com/DavidDaniel.Tolosa "><img src="MULTIMEDIA/facebook.png " alt="facebook " class="imgicon border"></a>&nbsp;
+                    <a href="https://www.instagram.com/davidarb13/?hl=es-la "><img src="MULTIMEDIA/instagram-1675670_640.png " alt="instagram " class="imgicon border"></a>&nbsp;
+                    <a href="https://www.youtube.com/channel/UCZpU9tOQd0WD8lmeBmLrrKA?view_as=subscriber "><img src="MULTIMEDIA/youtube-2433301_640.png " alt="youtube " class="imgicon border"></a>&nbsp;
 
-        <section>
-            <h4> SocialMedia</h4>
-            <ul>
-            <li><a href="https://www.facebook.com/DavidDaniel.Tolosa">Facebook</a></li>
-            <li><a href="https://www.instagram.com/davidarb13/?hl=es-la">Instagram</a></li>
-            <li><a href="https://www.youtube.com/channel/UCZpU9tOQd0WD8lmeBmLrrKA?view_as=subscriber">Youtube</a></li>
-            <li>Whatsapp +57 319-765-8790</li>
-            <li><a href="https://www.linkedin.com/in/david-daniel-arboleda-tolosa-348a16103/">LinkedIn</a></li>
-            <li><a href="https://github.com/DavidArb13">GibHub</a></li>
-            <li>2020 Todos los derechos reservados Daarb.com.co</li>
-        </ul>
-        </section>
+                    <a href="https://www.linkedin.com/in/david-daniel-arboleda-tolosa-348a16103/ "><img src="MULTIMEDIA/linked-in-2668700_640.png " alt="linkedin " class="imgicon border"></a>&nbsp;
+                    <a href="https://github.com/DavidArb13 "><img src="MULTIMEDIA/github-154769_640.png " alt="GibHub " class="imgicon border">
+                    </a><br><br>
+                    <p class="texto"><img src="MULTIMEDIA/whatsapp-1623579_640.png " alt="Whatsapp " class="imgicon border"> +57 3197658790 </p>
+                    <br>
+                    <p class="texto"><img src="MULTIMEDIA/copyright-98570_640.png " alt="copyright" class="imgcc"> 2020 Todos los derechos reservados Daarb.com.co</p>
+                </div>
+            </div>
+        </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>

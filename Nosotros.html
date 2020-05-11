@@ -4,86 +4,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
-    <link rel="stylesheet" href="zTILOS.css">
+    <title>Nosotros-Daarb</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <section> <img src="" alt="LOGO"> </section>
-        <section>
-            <nav>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="Index.html"> <img src="MULTIMEDIA/logo.PNG" alt="logo" class="logos">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <a href="Index.html">
-                    <li>Inicio</li>
-                </a>
-                <a href="Nosotros.html">
-                    <li>Nosotros</li>
-                </a>
-                <a href="Servicios.html">
-                    <li>Servicios</li>
-                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
 
-                <a href="Clientes.html">
-                    <li>Clientes</li>
-                </a>
-                <a href="Contacto.html">
-                    <li>Contacto</li>
-                </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Index.html">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contacto.html">Contactanos</a>
+                        </li>
+                    </ul>
 
 
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <a href="Registro.html"
+                            class="sinlinea ">Registro</a></button>
+                    </form>
+                </div>
             </nav>
-
-        </section>
-        <section>
-            <h1>FreeLancer</h1>
-        </section>
-
+        </div>
     </header>
-    <main>
-        <section><img src="" alt="Nosotros"></section>
-        <section>
-            <h1>Nosotros</h1>
-        </section>
-        <section>
-            <p>Daarb es una empresa de desarrollo de software ágil, especializada en ofrecer servicios de TI desde sus
-                centros de desarrollo en Latinoamérica. Nuestro equipo es pionero en la adopción
-                de mejores prácticas de Ingeniería de Software (desarrollo ágil, SCRUM).
-            </p>
-            <p>Nacimos con el compromiso de crear software de alta calidad, ayudando a nuestros clientes a obtener valor
-                y resolver problemas a través de la tecnología.</p>
-            <p>
-                Con nuestro equipo especializado en desarrollo de software, estamos dispuestos a atender todo tipo de
-                proyecto, pequeño o grande, donde el cliente pueda beneficiarse de nuestras capacidades. Permítanos
-                conocer su necesidad.</p>
-        </section>
-        <br>
-        <section><p>Somos una agencia dedicada
-            al Desarrollo de Software</p></section>
+
+    <main class="fondonosotros">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="somos border">
+                        <h1>¿QUIENES SOMOS?</h1>
+                        <br>
+                        <p>Daarb es una empresa de desarrollo de software ágil, especializada en ofrecer servicios de TI desde sus centros de desarrollo en Latinoamérica. Nuestro equipo es pionero en la adopción de mejores prácticas de Ingeniería de Software
+                            (desarrollo ágil, SCRUM).</p>
+
+                        <p>Nacimos con el compromiso de crear software de alta calidad, ayudando a nuestros clientes a obtener valor y resolver problemas a través de la tecnología.</p>
+
+                        <p>Con nuestro equipo especializado en desarrollo de software, estamos dispuestos a atender todo tipo de proyecto, pequeño o grande, donde el cliente pueda beneficiarse de nuestras capacidades. Permítanos conocer su necesidad.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row trabajecon border">
+                <div class="col-12 col-md-4">
+                    <div class="top1">
+                        <h1>TRABAJE CON</h1>
+                        <h1>NOSOTROS</h1>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="top1">
+                        <form action="">
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombres" class="campos">
+                            <br>
+                            <input type="email" name="correo" id="correo" placeholder="Email" class="campos">
+                            <br>
+                            <div class="btn-group">
+
+                                <select class="custom-select mr-sm-2 " id="inlineFormCustomSelect">
+                            <option selected>---</option>
+                            <option value="1">Ingeniería</option>
+                            <option value="2">Comercial</option>
+                            <option value="3">Maqueta</option>
+                            <option value="4">Diseño</option>
+                            </select>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="exampleFormControlFile1">Adjunte hoja de vida.</label>
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            </div>
+                            <!-- <div class="g-recaptcha" data-sitekey="your_site_key"></div> -->
+
+                            <div>
+                                <button type="button" class="btn btn-dark">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="top1">
+                        <img src="MULTIMEDIA/trabajo.png" alt="trabajo1">
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="row ">
+                <div class="col-12 col-md-6">
+                    <div class="me ">
+                        <img src="MULTIMEDIA/me.jpg" alt="me" class="perfil newborder">
+                        <br><br>
+                        <h3>Fundador</h3>
+                        <p>CEO Daarb</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="somos border">
+                        <h1>Perfil</h1>
+                        <br>
+                        <p class="">Persona que posee gran capacidad analítica y adaptabilidad al entorno cambiante, empeño y compromiso por lograr la eficiencia, eficacia en los logros y objetivos propuestos, con aptitudes como la buena comunicación, la polivalencia
+                            y la proactividad, cuenta con poco más de cuatro años de experiencia como auxiliar administrativo, coordinador logístico y supervisor operativo. Con conocimientos en gestión tecnológica, gestión del capital humano, propiedad
+                            intelectual, investigación de mercados, gestión de datos, formulación y evaluación de proyectos, interpretación y análisis financiero, herramientas ofimáticas. Cuenta con excelente presentación personal, comprometido, autónomo
+                            y orientado a la obtención de resultados.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
 
     </main>
-    <footer>
-        <section>
-            <h4>Contacto</h4>
-            <br>
-            <li>David Arboleda</li>
-            <li>Cel: 319-765-8790</li>
-            <li>Correo: arboledadavid200837@correo.itm.edu.co</li>
-            <li>Oficina: +57 4-2378923 +57 4-2323213</li>
-        </section>
 
-        <section> <img src="" alt="FIRMA"></section>
+    <footer class="nomelacreo1 ">
+        <div class="container">
+            <div class="row top1 justify-content-around">
+                <div class="col-12 col-md-3">
+                    <div class="texto">
+                        <p>David Daniel Arboleda Tolosa </p>
+                        <p>319-765-8790 </p>
+                        <p>arboledadavid200837@correo.itm.edu.co </p>
+                        <p>+57 4-2378923 +57 4-2323213 </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 center">
+                    <img src="MULTIMEDIA/logo.PNG" alt="FIRMA" class="logofooter">
+                </div>
+                <div class="col-12 col-md-3 imgcenter">
+                    <a href="https://www.facebook.com/DavidDaniel.Tolosa "><img src="MULTIMEDIA/facebook.png " alt="facebook " class="imgicon border"></a>&nbsp;
+                    <a href="https://www.instagram.com/davidarb13/?hl=es-la "><img src="MULTIMEDIA/instagram-1675670_640.png " alt="instagram " class="imgicon border"></a>&nbsp;
+                    <a href="https://www.youtube.com/channel/UCZpU9tOQd0WD8lmeBmLrrKA?view_as=subscriber "><img src="MULTIMEDIA/youtube-2433301_640.png " alt="youtube " class="imgicon border"></a>&nbsp;
 
-        <section>
-            <h4> SocialMedia</h4>
-            <li><a href="https://www.facebook.com/DavidDaniel.Tolosa">Facebook</a></li>
-            <li><a href="https://www.instagram.com/davidarb13/?hl=es-la">Instagram</a></li>
-            <li><a href="https://www.youtube.com/channel/UCZpU9tOQd0WD8lmeBmLrrKA?view_as=subscriber">Youtube</a></li>
-            <li>Whatsapp +57 319-765-8790</li>
-            <li><a href="https://www.linkedin.com/in/david-daniel-arboleda-tolosa-348a16103/">LinkedIn</a></li>
-            <li><a href="https://github.com/DavidArb13">GibHub</a></li>
-        </section>
+                    <a href="https://www.linkedin.com/in/david-daniel-arboleda-tolosa-348a16103/ "><img src="MULTIMEDIA/linked-in-2668700_640.png " alt="linkedin " class="imgicon border"></a>&nbsp;
+                    <a href="https://github.com/DavidArb13 "><img src="MULTIMEDIA/github-154769_640.png " alt="GibHub " class="imgicon border">
+                    </a><br><br>
+                    <p class="texto"><img src="MULTIMEDIA/whatsapp-1623579_640.png " alt="Whatsapp " class="imgicon border"> +57 3197658790 </p>
+                    <br>
+                    <p class="texto"><img src="MULTIMEDIA/copyright-98570_640.png " alt="copyright" class="imgcc"> 2020 Todos los derechos reservados Daarb.com.co</p>
+                </div>
+            </div>
+        </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 </body>
 
 </html>

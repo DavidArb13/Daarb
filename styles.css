@@ -13,6 +13,7 @@
 }
 
 .fondoimagen1 {
+    padding-bottom: 50px;
     background-image: url(MULTIMEDIA/FONDO.jpg);
     background-attachment: fixed;
     background-position: center center;
@@ -31,7 +32,7 @@
 
 .otrotop {
     margin-top: 50px;
-    margin-bottom: px;
+    margin-bottom: 0px;
 }
 
 .imgcenter {
@@ -40,10 +41,6 @@
 
 .justifica {
     text-align: justify;
-    margin-top: 30px;
-}
-
-.cubo {
     margin-top: 30px;
 }
 
@@ -62,18 +59,11 @@
 
 .top1 {
     padding: 2%;
+    padding-top: 3%;
 }
 
 .top2 {
     padding: 5%;
-}
-
-.tamaño {
-    height: 155px;
-}
-
-.tamaño1 {
-    height: 175px;
 }
 
 .noda {
@@ -120,7 +110,151 @@
 }
 
 .logofooter {
-    width: 400px;
-    height: 100px;
+    width: 100%;
     margin-top: 20px;
+}
+
+
+/* CLASES REGISTRO */
+
+.fondoRegistro {
+    padding-bottom: 50px;
+    background-image: url(MULTIMEDIA/fondos9.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.colorregistro {
+    background-color: rgba(33, 37, 41, 0.7);
+    height: 680px;
+    color: lightcyan;
+    text-align: center;
+}
+
+.mid {
+    position: relative;
+    /* left: 400px; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.mid2 {
+    color: lightcyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    /* left: 330px;
+    top: 230px; */
+    text-align: center;
+}
+
+.pa {
+    padding-top: 25%;
+}
+
+.pa1 {
+    font-size: 70px;
+    color: lightcyan;
+}
+
+.colorregistro1 {
+    background-color: rgba(33, 37, 41, 0.7);
+    padding: 5%;
+    color: lightcyan;
+    text-align: left;
+    margin-top: 25%;
+    margin-bottom: 5%;
+}
+
+.colorregistro2 {
+    background-color: rgba(33, 37, 41, 0.7);
+    padding: 5%;
+    color: lightcyan;
+    text-align: center;
+    margin-top: 25%;
+    margin-right: 150px;
+}
+
+.tama {
+    height: 80px;
+    width: 80px;
+}
+
+.contacto {
+    margin-top: 20%;
+    margin-right: 170px;
+    font-size: 60px;
+    color: lightcyan;
+    text-align: center;
+}
+
+.campos {
+    width: 75%;
+}
+
+.fondonosotros {
+    padding-bottom: 50px;
+    background-image: url(MULTIMEDIA/fondo10.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.somos {
+    background-color: rgba(207, 207, 207, 0.8);
+    padding: 5%;
+    color: rgb(33, 37, 41);
+    text-align: justify;
+    margin-top: 10%;
+    margin-left: 50px;
+}
+
+.trabajecon {
+    background-color: rgba(33, 37, 41, 0.8);
+    padding: 2%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: lightcyan;
+}
+
+.perfil {
+    width: 200px;
+    height: 300px;
+}
+
+.newborder {
+    border-radius: 50rem;
+    border: rgb(33, 37, 41) 5px;
+}
+
+.me {
+    padding-top: 8%;
+    padding-left: 10%;
+    color: rgb(33, 37, 41);
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 50px;
+}
+
+.fondoclientes {
+    padding-bottom: 50px;
+    background-image: url(MULTIMEDIA/fondos4.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.servicios {
+    /* background-color: rgba(224, 255, 255, 0.6); */
+    background-color: rgba(33, 37, 41, 0.8);
+    color: lightcyan;
+    padding: 5%;
+    text-align: justify;
+}
+
+.pa4 {
+    padding-top: 10%;
 }

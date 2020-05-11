@@ -4,98 +4,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="zTILOS.css">
+    <title>Contacto-Daarb</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <section> <img src="" alt="LOGO"> </section>
-        <section>
-            <nav>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <a class="navbar-brand" href="Index.html"> <img src="MULTIMEDIA/logo.PNG" alt="logo" class="logos">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <a href="Index.html">
-                    <li>Inicio</li>
-                </a>
-                <a href="Nosotros.html">
-                    <li>Nosotros</li>
-                </a>
-                <a href="Servicios.html">
-                    <li>Servicios</li>
-                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
 
-                <a href="Clientes.html">
-                    <li>Clientes</li>
-                </a>
-                <a href="Contacto.html">
-                    <li>Contacto</li>
-                </a>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="Index.html">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
 
+                        <li class="nav-item ">
+                            <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Contacto.html">Contactanos</a>
+                        </li>
+                    </ul>
+
+
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <a href="Registro.html"
+                                class="sinlinea">Registro</a></button>
+                    </form>
+                </div>
             </nav>
-
-        </section>
-        <section>
-            <h1>FreeLancer</h1>
-        </section>
-
+        </div>
     </header>
-    <main>
-        <section>
-            <h1>Siguenos en nuestras redes sociales</h1>
-            <a href="https://www.facebook.com/DavidDaniel.Tolosa"><img src="" alt="facebook"></a>
-            <a href="https://www.instagram.com/davidarb13/?hl=es-la"><img src="" alt="instagram"></a>
-            <a href="https://www.youtube.com/channel/UCZpU9tOQd0WD8lmeBmLrrKA?view_as=subscriber"><img src=""
-                    alt="youtube"></a>
-            <a href="https://www.linkedin.com/in/david-daniel-arboleda-tolosa-348a16103/"><img src=""
-                    alt="linkedin"></a>
 
-        </section>
-        <section>
-            <h1>Información de contacto</h1>
-            <p> Cel 319-765-8790</p>
-            <p>Correo: arboledadavid200837@correo.itm.edu.co</p>
-            <p>Oficina: +57 4-2378923 +57 4-2323213</p>
-        </section>
-        <section>
-            <h1>Contactenos</h1>
-        </section>
-        <section>
-            <p>Envíenos un mensaje con sus requerimientos, dudas o inquietudes y prontamente estarémos dandole
-                respuesta.
-                Por favor envíar sus datos de contacto (nombre, empresa, teléfono o celular)</p>
-        </section>
-        <form action="">
-            <input type="text" name="nombre" id="nombre" placeholder="Nombre*">
-            <input type="email" name="correo" id="correo" placeholder="Correo Electronico*">
-            <input type="text" name="mensaje" id="mensaje" placeholder="Mensaje*">
-            <input type="submit" name="boton" id="boton" value="Enviar Mensaje">
-        </form>
+    <main class="fondoRegistro">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="colorregistro2 border">
+                        <h1 class="texto">Siguenos en Redes Sociales.</h1>
+                        <br>
+                        <div>
+                            <a href="https://www.facebook.com/DavidDaniel.Tolosa "><img src="MULTIMEDIA/facebook.png " alt="facebook " class="tama"></a>&nbsp;
+                            <a href="https://www.instagram.com/davidarb13/?hl=es-la "><img src="MULTIMEDIA/instagram-1675670_640.png " alt="instagram " class="tama"></a>&nbsp;
+                            <a href="https://www.youtube.com/channel/UCZpU9tOQd0WD8lmeBmLrrKA?view_as=subscriber "><img src="MULTIMEDIA/youtube-2433301_640.png " alt="youtube " class="tama"></a>&nbsp;
+                            <br><br>
+                            <a href="https://www.linkedin.com/in/david-daniel-arboleda-tolosa-348a16103/ "><img src="MULTIMEDIA/linked-in-2668700_640.png " alt="linkedin " class="tama "></a>&nbsp;
+                            <a href="https://github.com/DavidArb13 "><img src="MULTIMEDIA/github-154769_640.png " alt="GibHub " class="tama"></a>
+                        </div>
+                    </div>
+                    <div>
+
+                        <h1 class="contacto">
+                            CONTÁCTENOS
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="colorregistro1 border">
+
+                        <h1>Dejanos tu mensaje</h1>
+                        <h3>Nos contactaremos pronto.</h3>
+                        <br>
+                        <p>Nombre Completo</p>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombres" class="campos">
+                        <br>
+                        <p>Celular</p>
+                        <input type="number" name="celular" id="celular" placeholder="Número" class="campos">
+                        <br>
+                        <p>Correo Eletronico</p>
+                        <input type="email" name="correo" id="correo" placeholder="Email" class="campos">
+                        <br><br>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Mensaje</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su mensaje aqui"></textarea>
+                            <br>
+                        </div>
+                        <div class="imgcenter">
+                            <input type="checkbox" name="terminos" id="terminos">
+                            <p>Acepto manejo de datos personales.</p>
+
+                            <button type="button" class="btn btn-dark">Enviar</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+
+                </div>
+                <div class="col-4">
+
+                </div>
+            </div>
+        </div>
     </main>
+
     <footer>
-        <section>
-            <h4>Contacto</h4>
-            <br>
-            <li>David Arboleda</li>
-            <li>Cel: 319-765-8790</li>
-            <li>Correo: arboledadavid200837@correo.itm.edu.co</li>
-            <li>Oficina: +57 4-2378923 +57 4-2323213</li>
-        </section>
+        <footer class="nomelacreo1">
+            <div class="container">
+                <div class="row top2 justify-content-around">
+                    <div class="col-12 col-md-3">
+                        <div class="texto">
+                            <p>David Daniel Arboleda Tolosa </p>
+                            <p>319-765-8790 </p>
+                            <p>arboledadavid200837@correo.itm.edu.co </p>
+                            <p>+57 4-2378923 +57 4-2323213 </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="MULTIMEDIA/logo.PNG" alt="FIRMA" class="logofooter">
+                    </div>
+                    <div class="col-12 col-md-3 imgcenter">
+                        <a href="https://www.facebook.com/DavidDaniel.Tolosa "><img src="MULTIMEDIA/facebook.png " alt="facebook " class="imgicon border"></a>&nbsp;
+                        <a href="https://www.instagram.com/davidarb13/?hl=es-la "><img src="MULTIMEDIA/instagram-1675670_640.png " alt="instagram " class="imgicon border"></a>&nbsp;
+                        <a href="https://www.youtube.com/channel/UCZpU9tOQd0WD8lmeBmLrrKA?view_as=subscriber "><img src="MULTIMEDIA/youtube-2433301_640.png " alt="youtube " class="imgicon border"></a>&nbsp;
 
-        <section> <img src="" alt="FIRMA"></section>
-
-        <section>
-            <h4> SocialMedia</h4>
-           <ul> <li><a href="https://www.facebook.com/DavidDaniel.Tolosa">Facebook</a></li>
-            <li><a href="https://www.instagram.com/davidarb13/?hl=es-la">Instagram</a></li>
-            <li><a href="https://www.youtube.com/channel/UCZpU9tOQd0WD8lmeBmLrrKA?view_as=subscriber">Youtube</a></li>
-            <li>Whatsapp +57 319-765-8790</li>
-            <li><a href="https://www.linkedin.com/in/david-daniel-arboleda-tolosa-348a16103/">LinkedIn</a></li>
-            <li><a href="https://github.com/DavidArb13">GibHub</a></li>
-            <li>2020 Todos los derechos reservados Daarb.com.co</li>
-        </ul>
-        </section>
-        
+                        <a href="https://www.linkedin.com/in/david-daniel-arboleda-tolosa-348a16103/ "><img src="MULTIMEDIA/linked-in-2668700_640.png " alt="linkedin " class="imgicon border"></a>&nbsp;
+                        <a href="https://github.com/DavidArb13 "><img src="MULTIMEDIA/github-154769_640.png " alt="GibHub " class="imgicon border">
+                        </a><br><br>
+                        <p class="texto"><img src="MULTIMEDIA/whatsapp-1623579_640.png " alt="Whatsapp " class="imgicon border"> +57 3197658790 </p>
+                        <br>
+                        <p class="texto"><img src="MULTIMEDIA/copyright-98570_640.png " alt="copyright" class="imgcc"> 2020 Todos los derechos reservados Daarb.com.co</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
